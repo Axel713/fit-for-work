@@ -11,7 +11,8 @@ This project aims to promote how Fit For Work I/S can help to benefit corporate 
 This project was developed in cooperation with the company owners, to gain their input in terms of necessary and future feaatures, as well as design style.
 
 ## Content
-- [UX](## UX)
+- [UX](##UX)
+- [Features](##Features)
 
  
 ## UX
