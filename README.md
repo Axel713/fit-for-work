@@ -4,7 +4,7 @@
 
 [View the live project here.](#)
 
-Fit For Work I/S offers onsite massage and other well-being therapies to companies in Denmark. This project aims to offer to Fit For Work a visual upgrade to their current website, judged to be lacking in attractivity.
+Fit For Work I/S offers onsite massage and other well-being therapies to companies in Denmark. This project aims to offer to Fit For Work I/S a visual upgrade to their current website, judged to be lacking in attractivity.
 
 The overall goal is to promote how Fit For Work I/S can help to benefit corporate clients by offering their services to their workforce.
 
@@ -12,7 +12,6 @@ This project was developed in cooperation with the company owners, to gain their
 
 ## Content
 - [UX](#UX)
-- [Features](#Features)
     - [User-Stories](#User-Stories)
     - [Wireframes](#Wireframes)
     - [Other-Design-Documents](#Other-Design-Documents)
@@ -33,6 +32,8 @@ User profiles are very varied. Whilst they are majorly danish, variations in cul
 - As a user, I want to find out what other services are available.
 - As a user, I want to find out what financing is available.
 - As a user I want to find out how to best optimise the cost of the services.
+- As a user, I want to be able to try the services provided.
+- As a user I want to be able to contact Fit for Work I/S.
 
 ### Wireframes
 *Link pdf files*
