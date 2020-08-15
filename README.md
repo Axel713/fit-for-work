@@ -4,25 +4,41 @@
 
 [View the live project here.](#)
 
-Fit For Work I/S offers on-site massage and other well-being therapies to companies in Denmark.
+Fit For Work I/S offers onsite massage and other well-being therapies to companies in Denmark. This project aims to offer to Fit For Work a visual upgrade to their current website, judged to be lacking in attractivity.
 
-This project aims to promote how Fit For Work I/S can help to benefit corporate clients by offering their services to their workforce, as well as describe how the process takes places.
+The overall goal is to promote how Fit For Work I/S can help to benefit corporate clients by offering their services to their workforce.
 
 This project was developed in cooperation with the company owners, to gain their input in terms of necessary and future feaatures, as well as design style.
 
 ## Content
-- [UX](##UX)
-- [Features](##Features)
+- [UX](#UX)
+- [Features](#Features)
+    - [User-Stories](#User-Stories)
+    - [Wireframes](#Wireframes)
+    - [Other-Design-Documents](#Other-Design-Documents)
 
  
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+User profiles are very varied. Whilst they are majorly danish, variations in culture, background, age range and corporate level make it difficult to pinpoint a/some specific groups. Nonetheless, to fit the current scandinavic design trends and the owner's wishes, the new UX must be:
+- with a simple and clear layout.
+- with a colour theme reflecting professionalism and a "clinical" flavour.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
+### User Stories
+- As a user type, I want to find out why is onsite massage good for my company.
+- As a user, I want to find out how can Fit For Work fulfill my own site massage requirements.
+- As a user, I want to find out what other services are available.
+- As a user, I want to find out what financing is available.
+- As a user I want to find out how to best optimise the cost of the services.
+
+### Wireframes
+*Link pdf files*
+
+### Other Design Documents
+*Link pdf files*
 
 ## Features
 
