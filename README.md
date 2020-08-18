@@ -35,11 +35,17 @@ User profiles are very varied. Whilst they are majorly danish, variations in cul
 - As a user, I want to be able to try the services provided.
 - As a user I want to be able to contact Fit for Work I/S.
 
-### Wireframes
-*Link pdf files*
 
 ### Other Design Documents
 *Link pdf files*
+
+### Design Choices
+#### Wireframes
+*Link pdf files*
+#### Fonts
+#### Colours
+
+
 
 ## Features
 
