@@ -2,6 +2,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Red+Rose:wght@400;700&display=swap');
 
 /* ---------------------------------------------------Header */
-Header {
+header {
     margin: 0;
+    padding: 0;
+    background-color: #EDEDF4;
 }
+
+.navbar {
+    font-family: red-rose, sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    padding: 3px;
+}
+
+.cov-saf-btn {
+    background-color: #F44B2A;
+    margin-left: 0.5em;
+}
+
+.brand {
+    border: 1px;
+    border-style: solid;
+    border-color: #190B28;
+    border-radius: 3%;
+}
+
+
+
+/* ---------------------------------------------------Body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EDEDF4;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+}
+
+
+/* ---------------------------------------------------Carousel */
