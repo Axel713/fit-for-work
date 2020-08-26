@@ -1,6 +1,16 @@
 /* ---------------------------------------------------Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Red+Rose:wght@400;700&display=swap');
 
+/* ---------------------------------------------------Body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EDEDF4;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+}
+
+
 /* ---------------------------------------------------Header */
 header {
     margin: 0;
@@ -28,21 +38,38 @@ header {
 }
 
 
-
-/* ---------------------------------------------------Body */
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #EDEDF4;
-    font-family: montserrat, sans-serif;
-    font-weight: 400;
-}
-
-
-/* ---------------------------------------------------Alert Warning */
+/* ---------------------------------------------------Callout */
 .alert-warning {
     background-color: #FFD166;
     color: #F44B2A;
+    margin: 0;
+    padding: 0;
+}
+
+.alert-warning h4 {
+    margin: 0;
+    padding: 4px 2px 2px 4px;
+}
+
+.alert-warning p {
+    margin: 0;
+    padding: 0 2px 4px 2px;
+}
+
+.callout-p {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.btn-warning {
+    width: fit-content;
+    height: fit-content;
+    background-color: #F44B2A;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #190B28;
+    margin-top: 3px;
+    margin-right: 4px;
 }
 
 /* ---------------------------------------------------Carousel */
