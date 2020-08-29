@@ -1,7 +1,16 @@
 /* ---------------------------------------------------Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Red+Rose:wght@400;700&display=swap');
 
+/* ---------------------------------------------------General */
+
+body html {
+    height: 100%;
+}
+
+
 /* ---------------------------------------------------Body */
+
 body {
     margin: 0;
     padding: 0;
@@ -12,6 +21,7 @@ body {
 
 
 /* ---------------------------------------------------Header */
+
 header {
     margin: 0;
     padding: 0;
@@ -39,6 +49,7 @@ header {
 
 
 /* ---------------------------------------------------Callout */
+
 .alert-warning {
     background-color: #FFD166;
     color: #F44B2A;
@@ -71,5 +82,18 @@ header {
     margin-top: 3px;
     margin-right: 4px;
 }
+
+
+/* ---------------------------------------------------Hero Image Landing Page */
+
+.hero-image {
+    height: 33vh;
+    background: url(../images/ffw-calf-massage.jpg) no-repeat bottom left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 /* ---------------------------------------------------Carousel */
