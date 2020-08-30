@@ -131,13 +131,17 @@ header {
     margin-top: 15px;
 }
 
-.three-reas-div-ico {
-    float: right;
-}
-
 .three-reas-p {
     color: #007E2F;
     font-weight: 500;
+}
+
+
+/* ---------------------------------------------------Navigation Buttons */
+
+.nav-butt {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
