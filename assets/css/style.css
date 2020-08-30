@@ -8,6 +8,11 @@ body html {
     height: 100%;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 
 /* ---------------------------------------------------Body */
 
@@ -93,6 +98,46 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+
+/* ---------------------------------------------------Three Reasons Landing Page */
+
+.three-reasons {
+    background-color: #EDEDF4;
+}
+
+.three-reasons h2 {
+    color: #007E2F;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.three-reas-row-1 {
+    height: 70px;
+}
+
+.three-reas-row-2 {
+    height: 50px;
+}
+
+.three-reas-ico {
+    color: #F44B2A;
+    margin-left: auto;
+}
+
+.three-reas-ico-1 {
+    color: #F44B2A;
+    margin-top: 15px;
+}
+
+.three-reas-div-ico {
+    float: right;
+}
+
+.three-reas-p {
+    color: #007E2F;
+    font-weight: 500;
 }
 
 
