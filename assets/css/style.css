@@ -8,6 +8,10 @@ body html {
     height: 100%;
 }
 
+h5 {
+    color: #007E2F;
+}
+
 p {
     margin: 0;
     padding: 0;
@@ -88,6 +92,11 @@ header {
     margin-right: 4px;
 }
 
+.book-btn-desk {
+    text-align: right;
+    margin: auto;
+}
+
 
 /* ---------------------------------------------------Hero Image Landing Page */
 
@@ -107,7 +116,7 @@ header {
     background-color: #EDEDF4;
 }
 
-.three-reasons h2 {
+h2 {
     color: #007E2F;
     margin-bottom: 3px;
     margin-top: 3px;
@@ -139,10 +148,39 @@ header {
 
 /* ---------------------------------------------------Navigation Buttons */
 
-.nav-butt {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 
 /* ---------------------------------------------------Carousel */
+
+
+/* ---------------------------------------------------Footer */
+
+footer {
+    margin-bottom: 10px;
+}
+
+.foot-ico {
+    color: #007E2F;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.div-ico-cop,
+.div-ico-fb,
+.div-ffw-info {
+    padding: 0;
+    text-align: center;
+    align-self: center;
+}
+
+.foot-ico-cop {
+    color: #007E2F;
+    padding-top: 5px;
+}
+
+.foot-comp-nam-1 {
+    font-size: 0.9em;
+}
+
+.foot-comp-nam-2 {
+    font-size: 0.8em;
+}
