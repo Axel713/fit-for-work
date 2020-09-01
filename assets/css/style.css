@@ -159,6 +159,23 @@ h2 {
 
 /* ---------------------------------------------------Carousel */
 
+.div-carousel-testimonials {
+    margin-bottom: 10px;
+}
+
+.carousel-testimonials-text h5 {
+    color: #F44B2A;
+}
+
+.carousel-inner .carousel-item {
+    height: 165px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -30px;
+}
+
 
 /* ---------------------------------------------------Footer */
 
