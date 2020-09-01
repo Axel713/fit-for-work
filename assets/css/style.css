@@ -57,7 +57,7 @@ header {
 }
 
 
-/* ---------------------------------------------------Callout */
+/* ---------------------------------------------------Callout index.html*/
 
 .callout-left {
     margin-left: 1px;
@@ -102,7 +102,7 @@ header {
 }
 
 
-/* ---------------------------------------------------Hero Image Landing Page */
+/* ---------------------------------------------------Hero Image index.html */
 
 .hero-image {
     height: 33vh;
@@ -114,7 +114,7 @@ header {
 }
 
 
-/* ---------------------------------------------------Three Reasons Landing Page */
+/* ---------------------------------------------------Three Reasons index.html */
 
 .three-reasons {
     background-color: #EDEDF4;
@@ -150,7 +150,11 @@ h2 {
 }
 
 
-/* ---------------------------------------------------Booking */
+/* ---------------------------------------------------Booking index.html */
+
+.div-book-ico {
+    text-align: center;
+}
 
 .book-ico-cal {
     padding: 0;
