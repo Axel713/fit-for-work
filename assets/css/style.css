@@ -59,6 +59,10 @@ header {
 
 /* ---------------------------------------------------Callout */
 
+.callout-left {
+    margin-left: 1px;
+}
+
 .alert-warning {
     background-color: #FFD166;
     color: #F44B2A;
@@ -89,7 +93,7 @@ header {
     font-weight: bold;
     color: #190B28;
     margin-top: 3px;
-    margin-right: 4px;
+    margin-right: 10px;
 }
 
 .book-btn-desk {
