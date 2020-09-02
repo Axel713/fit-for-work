@@ -49,6 +49,32 @@ header {
     margin-left: 0.5em;
 }
 
+
+/* Cov-19 Safety Modal */
+
+.modal-title {
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    color: #007E2F;
+}
+
+.cov-moda-p {
+    font-family: montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+    padding-bottom: 5px;
+}
+
+.cov-moda-lis {
+    font-family: montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+    padding-bottom: 5px;
+}
+
+
+/* /Cov-19 Safety Modal */
+
 .brand {
     border: 1px;
     border-style: solid;
