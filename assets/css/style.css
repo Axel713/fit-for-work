@@ -196,6 +196,27 @@ h2 {
 /* /Booking index.html */
 
 
+/* Welcome to Fit For Work */
+
+@media (max-width:1200px) {
+    .welcome-ffw {
+        display: none;
+    }
+}
+
+article p {
+    font-size: 1.25em;
+    line-height: 1.3em;
+    padding-bottom: 1em;
+}
+
+
+/* /Welcome to Fit For Work */
+
+
+/* ---------------------------------------------------/Responsive Content Grid 1 index.html */
+
+
 /* Testimonials */
 
 .div-carousel-testimonials {
@@ -216,7 +237,7 @@ h2 {
 }
 
 
-/* Testimonials */
+/* /Testimonials */
 
 
 /* ---------------------------------------------------Navigation Buttons */
