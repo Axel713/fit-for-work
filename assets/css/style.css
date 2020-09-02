@@ -142,7 +142,10 @@ header {
 }
 
 
-/* ---------------------------------------------------Three Reasons index.html */
+/* ---------------------------------------------------Responsive Content Grid 1 index.html */
+
+
+/* Three Reasons index.html */
 
 .three-reasons {
     background-color: #EDEDF4;
@@ -154,17 +157,14 @@ h2 {
     margin-top: 3px;
 }
 
-.three-reas-row-1 {
-    height: 70px;
-}
-
-.three-reas-row-2 {
-    height: 50px;
+.line-row {
+    padding-bottom: 1.5em;
 }
 
 .three-reas-ico {
     color: #F44B2A;
     margin-left: auto;
+    margin-right: auto;
 }
 
 .three-reas-ico-1 {
@@ -178,7 +178,10 @@ h2 {
 }
 
 
-/* ---------------------------------------------------Booking index.html */
+/* /Three Reasons index.html */
+
+
+/* Booking index.html */
 
 .div-book-ico {
     text-align: center;
@@ -190,10 +193,10 @@ h2 {
 }
 
 
-/* ---------------------------------------------------Navigation Buttons */
+/* /Booking index.html */
 
 
-/* ---------------------------------------------------Carousel */
+/* Testimonials */
 
 .div-carousel-testimonials {
     margin-bottom: 10px;
@@ -211,6 +214,12 @@ h2 {
     position: absolute;
     bottom: -30px;
 }
+
+
+/* Testimonials */
+
+
+/* ---------------------------------------------------Navigation Buttons */
 
 
 /* ---------------------------------------------------Footer */
