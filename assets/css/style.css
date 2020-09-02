@@ -189,7 +189,13 @@ h2 {
 
 .book-ico-cal {
     padding-top: 10px;
-    color: #007E2F;
+    color: #F44B2A;
+}
+
+.book-p {
+    font-size: 1.25em;
+    line-height: 1.3em;
+    padding-bottom: 1em;
 }
 
 
