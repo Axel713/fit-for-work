@@ -85,8 +85,14 @@ header {
 
 /* ---------------------------------------------------Callout index.html*/
 
-.callout-left {
+.callout-left-1 {
     margin-left: 1px;
+}
+
+@media (max-width:1200px) {
+    .callout-left-2 {
+        display: none;
+    }
 }
 
 .alert-warning {
@@ -98,17 +104,14 @@ header {
 
 .alert-warning h4 {
     margin: 0;
-    padding: 4px 2px 2px 4px;
-}
-
-.alert-warning p {
-    margin: 0;
-    padding: 0 2px 4px 2px;
+    padding: 10px 2px 2px 4px;
 }
 
 .callout-p {
     font-weight: 500;
-    font-size: 12px;
+    font-size: 1em;
+    margin-left: 4px;
+    margin-bottom: 10px;
 }
 
 .btn-warning {
@@ -118,12 +121,11 @@ header {
     font-size: 0.75rem;
     font-weight: bold;
     color: #190B28;
-    margin-top: 3px;
-    margin-right: 10px;
+    margin: 10px 10px 10px 0;
 }
 
 .book-btn-desk {
-    text-align: right;
+    text-align: center;
     margin: auto;
 }
 
@@ -183,7 +185,7 @@ h2 {
 }
 
 .book-ico-cal {
-    padding: 0;
+    padding-top: 10px;
     color: #007E2F;
 }
 
