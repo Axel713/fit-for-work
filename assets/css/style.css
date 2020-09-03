@@ -223,7 +223,7 @@ article p {
 /* ---------------------------------------------------/Responsive Content Grid 1 index.html */
 
 
-/* ---------------------------------------------------/Responsive Content Grid 2 index.html */
+/* ----------------------------------------------------Responsive Content Grid 2 index.html */
 
 
 /* Services Buttons */
@@ -278,6 +278,9 @@ article p {
 /* /Image img-ffw-kl-calf-massage */
 
 
+/* ---------------------------------------------------/Responsive Content Grid 2 index.html */
+
+
 /* ---------------------------------------------------Footer */
 
 footer {
@@ -305,9 +308,9 @@ footer {
 }
 
 .foot-comp-nam-1 {
-    font-size: 0.9em;
+    font-size: 1.25em;
 }
 
 .foot-comp-nam-2 {
-    font-size: 0.8em;
+    font-size: 1em;
 }
