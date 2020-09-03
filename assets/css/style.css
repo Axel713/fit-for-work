@@ -1,336 +1,300 @@
-/* ---------------------------------------------------Fonts */
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Red+Rose:wght@400;700&display=swap');
-
-/* ---------------------------------------------------General */
-
-body html {
-    height: 100%;
-}
-
-h5 {
-    color: #007E2F;
-}
-
-p {
-    margin: 0;
-    padding: 0;
-}
-
-
-/* ---------------------------------------------------Body */
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #EDEDF4;
-    font-family: montserrat, sans-serif;
-    font-weight: 400;
-}
-
-
-/* ---------------------------------------------------Header */
-
-header {
-    margin: 0;
-    padding: 0;
-    background-color: #EDEDF4;
-}
-
-.navbar {
-    font-family: red-rose, sans-serif;
-    font-weight: 400;
-    font-size: 1.3em;
-    padding: 5px;
-}
-
-.cov-saf-btn {
-    font-weight: bold;
-    background-color: #F44B2A;
-    margin-right: 8px;
-    margin-left: 2px;
-}
-
-.brand {
-    border: 1px;
-    border-style: solid;
-    border-color: #190B28;
-    border-radius: 3%;
-}
-
-.nav-link {
-    color: #007E2F;
-}
-
-.navbar-toggler {
-    padding: 0;
-    border: 2px solid #007E2F;
-    border-radius: 10%;
-}
-
-.navbar-toggler-icon {
-    font-size: 30px;
-    height: 100%;
-    color: #007E2F;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-
-
-/* Cov-19 Safety Modal */
-
-.modal-title {
-    font-family: montserrat, sans-serif;
-    font-weight: 600;
-    color: #007E2F;
-}
-
-.cov-moda-p {
-    font-family: montserrat, sans-serif;
-    font-weight: 300;
-    font-size: 0.9em;
-    padding-bottom: 5px;
-}
-
-.cov-moda-lis {
-    font-family: montserrat, sans-serif;
-    font-weight: 300;
-    font-size: 0.9em;
-    padding-bottom: 5px;
-}
-
-
-/* /Cov-19 Safety Modal */
-
-
-/* ---------------------------------------------------Callout index.html*/
-
-.callout-left-1 {
-    margin-left: 1px;
-}
-
-@media (max-width:1200px) {
-    .callout-left-2 {
-        display: none;
+    /* ---------------------------------------------------Fonts */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Red+Rose:wght@400;700&display=swap');
+    /* ---------------------------------------------------General */
+    
+    body html {
+        height: 100%;
     }
-}
-
-.alert-warning {
-    background-color: #FFD166;
-    color: #F44B2A;
-    margin: 0;
-    padding: 0;
-}
-
-.alert-warning h4 {
-    margin: 0;
-    padding: 10px 2px 2px 4px;
-}
-
-.callout-p {
-    font-weight: 500;
-    font-size: 1em;
-    margin-left: 4px;
-    margin-bottom: 10px;
-}
-
-.btn-warning {
-    width: fit-content;
-    height: fit-content;
-    background-color: #F44B2A;
-    font-size: 0.75rem;
-    font-weight: bold;
-    color: #190B28;
-    margin: 10px 10px 10px 0;
-}
-
-.book-btn-desk {
-    text-align: center;
-    margin: auto;
-}
-
-
-/* ---------------------------------------------------Hero Image index.html */
-
-.hero-image {
-    height: 33vh;
-    background: url(../images/ffw-calf-massage.jpg) no-repeat bottom left fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-
-/* ---------------------------------------------------Responsive Content Grid 1 index.html */
-
-
-/* Three Reasons index.html */
-
-.three-reasons {
-    background-color: #EDEDF4;
-}
-
-h2 {
-    color: #007E2F;
-    margin-bottom: 3px;
-    margin-top: 3px;
-}
-
-.line-row {
-    padding-bottom: 1.5em;
-}
-
-.three-reas-ico {
-    color: #F44B2A;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.three-reas-ico-1 {
-    color: #F44B2A;
-    margin-top: 15px;
-}
-
-.three-reas-p {
-    color: #007E2F;
-    font-weight: 500;
-}
-
-
-/* /Three Reasons index.html */
-
-
-/* Booking index.html */
-
-.div-book-ico {
-    text-align: center;
-}
-
-.book-ico-cal {
-    padding-top: 10px;
-    color: #F44B2A;
-}
-
-.book-p {
-    font-size: 1.25em;
-    line-height: 1.3em;
-    padding-bottom: 1em;
-}
-
-
-/* /Booking index.html */
-
-
-/* Welcome to Fit For Work */
-
-@media (max-width:1200px) {
-    .welcome-ffw {
-        display: none;
+    
+    h5 {
+        color: #007E2F;
     }
-}
-
-article p {
-    font-size: 1.25em;
-    line-height: 1.3em;
-    padding-bottom: 1em;
-}
-
-
-/* /Welcome to Fit For Work */
-
-
-/* ---------------------------------------------------/Responsive Content Grid 1 index.html */
-
-
-/* ----------------------------------------------------Responsive Content Grid 2 index.html */
-
-
-/* Services Buttons */
-
-
-/* /Services Buttons */
-
-
-/* Testimonials */
-
-.testim-row {
-    margin-top: 5em;
-}
-
-.div-carousel-testimonials {
-    margin-bottom: 10px;
-}
-
-.carousel-testimonials-text h5 {
-    color: #F44B2A;
-}
-
-.carousel-inner .carousel-item {
-    height: 165px;
-}
-
-.carousel-indicators {
-    position: absolute;
-    bottom: -30px;
-}
-
-
-/* /Testimonials */
-
-
-/* Image img-ffw-kl-calf-massage */
-
-.img-ffw-kl-calf-massage {
-    display: block;
-    margin: auto;
-    height: cover;
-    width: 300px;
-}
-
-@media (max-width:1200px) {
-    .div-img-ffw-kl-calf-massage {
-        display: none;
+    
+    p {
+        margin: 0;
+        padding: 0;
     }
-}
-
-
-/* /Image img-ffw-kl-calf-massage */
-
-
-/* ---------------------------------------------------/Responsive Content Grid 2 index.html */
-
-
-/* ---------------------------------------------------Footer */
-
-footer {
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.foot-ico {
-    color: #007E2F;
-    padding-left: 4px;
-    padding-right: 4px;
-}
-
-.div-ico-cop,
-.div-ico-fb,
-.div-ffw-info {
-    padding: 0;
-    text-align: center;
-    align-self: center;
-}
-
-.foot-ico-cop {
-    color: #007E2F;
-    padding-top: 5px;
-}
-
-.foot-comp-nam-1 {
-    font-size: 1.25em;
-}
-
-.foot-comp-nam-2 {
-    font-size: 1em;
-}
+    /* ---------------------------------------------------Body */
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #EDEDF4;
+        font-family: montserrat, sans-serif;
+        font-weight: 400;
+    }
+    /* ---------------------------------------------------Header */
+    
+    header {
+        margin: 0;
+        padding-top: 4px;
+        padding-bottom: 70px;
+    }
+    
+    .navbar {
+        font-family: red-rose, sans-serif;
+        font-weight: 400;
+        font-size: 1.3em;
+        padding: 5px;
+        background-color: #EDEDF4;
+    }
+    
+    .cov-saf-btn {
+        font-weight: bold;
+        background-color: #F44B2A;
+        padding: 6px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .navbar-brand {
+        margin-right: 8px;
+    }
+    
+    .brand {
+        border: 1px;
+        border-style: solid;
+        border-color: #190B28;
+        border-radius: 3%;
+    }
+    
+    .nav-link {
+        color: #007E2F;
+    }
+    
+    .navbar-toggler {
+        padding: 0;
+        border: 2px solid #007E2F;
+        border-radius: 10%;
+        margin-right: auto;
+    }
+    
+    .navbar-toggler-icon {
+        font-size: 25px;
+        height: 100%;
+        color: #007E2F;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    /* Cov-19 Safety Modal */
+    
+    .modal-title {
+        font-family: montserrat, sans-serif;
+        font-weight: 600;
+        color: #007E2F;
+    }
+    
+    .cov-moda-p {
+        font-family: montserrat, sans-serif;
+        font-weight: 300;
+        font-size: 0.9em;
+        padding-bottom: 5px;
+    }
+    
+    .cov-moda-lis {
+        font-family: montserrat, sans-serif;
+        font-weight: 300;
+        font-size: 0.9em;
+        padding-bottom: 5px;
+    }
+    /* /Cov-19 Safety Modal */
+    /* ---------------------------------------------------Callout index.html */
+    
+    .alert-warning {
+        background-color: #FFD166;
+        color: #F44B2A;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .alert-warning h4 {
+        padding-top: 4px;
+    }
+    
+    .callout-p {
+        font-weight: 500;
+        font-size: 1em;
+        margin-left: 4px;
+        margin-bottom: 10px;
+    }
+    
+    .btn-warning {
+        width: fit-content;
+        height: fit-content;
+        background-color: #F44B2A;
+        font-size: 0.75rem;
+        font-weight: bold;
+        color: #190B28;
+        margin: 10px 10px 10px 0;
+    }
+    
+    .book-btn-desk {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .callout-left {
+        margin-left: 1px;
+    }
+    
+    .callout-left-0 {
+        text-align: justify;
+        margin: auto;
+    }
+    
+    @media (max-width: 1200px) {
+        .callout-left-2 {
+            display: none;
+        }
+    }
+    /* ---------------------------------------------------Hero Image index.html */
+    
+    .hero-image {
+        height: 33vh;
+        background: url(../images/ffw-calf-massage.jpg) no-repeat bottom left fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    /* ---------------------------------------------------Responsive Content Grid 1 index.html */
+    /* Three Reasons index.html */
+    
+    .three-reasons {
+        background-color: #EDEDF4;
+    }
+    
+    h2 {
+        color: #007E2F;
+        margin-bottom: 3px;
+        margin-top: 3px;
+    }
+    
+    .line-row {
+        padding-bottom: 1.5em;
+    }
+    
+    .three-reas-ico {
+        color: #F44B2A;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .three-reas-ico-1 {
+        color: #F44B2A;
+        margin-top: 15px;
+    }
+    
+    .three-reas-p {
+        color: #007E2F;
+        font-weight: 500;
+    }
+    /* /Three Reasons index.html */
+    /* Booking index.html */
+    
+    .div-book-ico {
+        text-align: center;
+    }
+    
+    .book-ico-cal {
+        padding-top: 10px;
+        color: #F44B2A;
+    }
+    
+    .book-p {
+        font-size: 1.25em;
+        line-height: 1.3em;
+        padding-bottom: 1em;
+    }
+    /* /Booking index.html */
+    /* Welcome to Fit For Work */
+    
+    @media (max-width:1200px) {
+        .welcome-ffw {
+            display: none;
+        }
+    }
+    
+    article p {
+        font-size: 1.25em;
+        line-height: 1.3em;
+        padding-bottom: 1em;
+    }
+    /* /Welcome to Fit For Work */
+    /* ---------------------------------------------------/Responsive Content Grid 1 index.html */
+    /* ----------------------------------------------------Responsive Content Grid 2 index.html */
+    /* Services Buttons */
+    /* /Services Buttons */
+    /* Testimonials */
+    
+    .testim-row {
+        margin-top: 5em;
+    }
+    
+    .div-carousel-testimonials {
+        margin-bottom: 10px;
+    }
+    
+    .carousel-testimonials-text h5 {
+        color: #F44B2A;
+    }
+    
+    .carousel-inner .carousel-item {
+        height: 165px;
+    }
+    
+    .carousel-indicators {
+        position: absolute;
+        bottom: -30px;
+    }
+    /* /Testimonials */
+    /* Image img-ffw-kl-calf-massage */
+    
+    .img-ffw-kl-calf-massage {
+        display: block;
+        margin: auto;
+        height: cover;
+        width: 300px;
+    }
+    
+    @media (max-width:1200px) {
+        .div-img-ffw-kl-calf-massage {
+            display: none;
+        }
+    }
+    /* /Image img-ffw-kl-calf-massage */
+    /* ---------------------------------------------------/Responsive Content Grid 2 index.html */
+    /* ---------------------------------------------------Footer */
+    
+    footer {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .foot-ico {
+        color: #007E2F;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    
+    .div-ico-cop,
+    .div-ico-fb,
+    .div-ffw-info {
+        padding: 0;
+        text-align: center;
+        align-self: center;
+    }
+    
+    .foot-ico-cop {
+        color: #007E2F;
+        padding-top: 5px;
+    }
+    
+    .foot-comp-nam-1 {
+        font-size: 1.25em;
+    }
+    
+    .foot-comp-nam-2 {
+        font-size: 1em;
+    }
