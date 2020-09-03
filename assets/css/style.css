@@ -49,6 +49,31 @@ header {
     margin-left: 0.5em;
 }
 
+.brand {
+    border: 1px;
+    border-style: solid;
+    border-color: #190B28;
+    border-radius: 3%;
+}
+
+.nav-link {
+    color: #007E2F;
+}
+
+.navbar-toggler {
+    padding: 0;
+    border: 2px solid #007E2F;
+    border-radius: 10%;
+}
+
+.navbar-toggler-icon {
+    font-size: 30px;
+    height: 100%;
+    color: #007E2F;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
 
 /* Cov-19 Safety Modal */
 
@@ -74,13 +99,6 @@ header {
 
 
 /* /Cov-19 Safety Modal */
-
-.brand {
-    border: 1px;
-    border-style: solid;
-    border-color: #190B28;
-    border-radius: 3%;
-}
 
 
 /* ---------------------------------------------------Callout index.html*/
