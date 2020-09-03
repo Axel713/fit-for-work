@@ -37,7 +37,7 @@
         font-family: red-rose, sans-serif;
         font-weight: 400;
         font-size: 1.3em;
-        padding: 5px;
+        padding: 1px;
         background-color: #EDEDF4;
     }
     
@@ -47,14 +47,33 @@
     
     .cov-saf-btn {
         font-weight: bold;
+        font-size: 0.75em;
         background-color: #F44B2A;
         padding: 6px;
         margin-right: auto;
-        margin-left: auto;
+        margin-left: 20px;
+    }
+    
+    @media (max-width: 370px) {
+        .cov-saf-btn {
+            font-weight: 400;
+            font-size: 0.5em;
+            background-color: #F44B2A;
+            padding: 6px;
+            margin-right: auto;
+            margin-left: auto;
+        }
     }
     
     .navbar-brand {
-        margin-right: 8px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    
+    @media (min-width: 992px) {
+        .navbar-brand {
+            margin-left: 25px;
+        }
     }
     
     .brand {
@@ -62,6 +81,10 @@
         border-style: solid;
         border-color: #190B28;
         border-radius: 3%;
+    }
+    
+    .navbar-nav {
+        margin-right: 25px;
     }
     
     .nav-link {
@@ -72,7 +95,7 @@
         padding: 0;
         border: 2px solid #007E2F;
         border-radius: 10%;
-        margin-right: auto;
+        margin-right: 25px;
     }
     
     .navbar-toggler-icon {
@@ -107,6 +130,7 @@
     /* ---------------------------------------------------Callout index.html */
     
     .alert-warning {
+        position: relative;
         background-color: #FFD166;
         color: #F44B2A;
         margin: 0;
@@ -146,6 +170,8 @@
     .callout-left-0 {
         text-align: justify;
         margin: auto;
+        padding-left: 8px;
+        padding-right: 0;
     }
     
     @media (max-width: 1200px) {
