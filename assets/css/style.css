@@ -27,9 +27,10 @@
     /* ---------------------------------------------------Header */
     
     header {
-        margin: 0;
+        margin-top: 1px;
+        margin-bottom: 70px;
         padding-top: 4px;
-        padding-bottom: 70px;
+        /* padding-bottom: 70px; */
     }
     
     .navbar {
@@ -185,11 +186,6 @@
         margin-right: auto;
     }
     
-    .three-reas-ico-1 {
-        color: #F44B2A;
-        margin-top: 15px;
-    }
-    
     .three-reas-p {
         color: #007E2F;
         font-weight: 500;
@@ -214,7 +210,7 @@
     /* /Booking index.html */
     /* Welcome to Fit For Work */
     
-    @media (max-width:1200px) {
+    @media (max-width:576px) {
         .welcome-ffw {
             display: none;
         }
@@ -262,7 +258,7 @@
         width: 300px;
     }
     
-    @media (max-width:1200px) {
+    @media (max-width:576px) {
         .div-img-ffw-kl-calf-massage {
             display: none;
         }
