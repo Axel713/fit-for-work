@@ -45,6 +45,10 @@
         color: #F44B2A;
     }
     
+    .active a {
+        color: #F44B2A;
+    }
+    
     .cov-saf-btn {
         font-weight: bold;
         font-size: 0.75em;
