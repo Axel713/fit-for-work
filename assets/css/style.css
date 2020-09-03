@@ -107,6 +107,10 @@
     }
     /* Cov-19 Safety Modal */
     
+    #staticBackdrop {
+        overflow-y: auto;
+    }
+    
     .modal-title {
         font-family: montserrat, sans-serif;
         font-weight: 600;
