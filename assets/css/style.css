@@ -45,8 +45,10 @@ header {
 }
 
 .cov-saf-btn {
+    font-weight: bold;
     background-color: #F44B2A;
-    margin-left: 0.5em;
+    margin-right: 8px;
+    margin-left: 2px;
 }
 
 .brand {
