@@ -17,6 +17,16 @@ body {
     font-weight: 400;
 }
 
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F44B2A;
+}
+
 h1,
 h2,
 h3,
@@ -57,14 +67,9 @@ article p {
 
 /* Covid-19 Safety button */
 
-@media (max-width: 370px) {
+@media (max-width: 375px) {
     .cov-saf-btn {
-        font-weight: 400;
-        font-size: 0.5em;
-        background-color: #F44B2A;
-        padding: 6px;
-        margin-right: auto;
-        margin-left: auto;
+        width: min-content;
     }
 }
 
@@ -134,10 +139,6 @@ header {
     font-size: 1.3em;
     padding: 1px;
     background-color: #EDEDF4;
-}
-
-a:hover {
-    color: #F44B2A;
 }
 
 .active a {
@@ -338,6 +339,21 @@ a:hover {
 
 /* Services Buttons */
 
+.serv-butt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    border-block-end-width: 1em;
+    font-family: red-rose, sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5em;
+    border-bottom-width: 1px;
+}
+
 
 /* /Services Buttons */
 
@@ -345,11 +361,11 @@ a:hover {
 /* Testimonials */
 
 .testim-row {
-    margin-top: 5em;
+    margin-top: 2em;
 }
 
 .div-carousel-testimonials {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .carousel-testimonials-text h5 {
@@ -357,7 +373,7 @@ a:hover {
 }
 
 .carousel-inner .carousel-item {
-    height: 165px;
+    height: 185px;
 }
 
 .carousel-indicators {
