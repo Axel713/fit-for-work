@@ -26,6 +26,15 @@
         color: #F44B2A;
     }
     
+    div a {
+        color: #007E2F;
+    }
+    
+    .std-a {
+        font-size: 1.25em;
+        font-weight: 500;
+    }
+    
     h1,
     h2,
     h3,
@@ -106,6 +115,7 @@
         }
     }
     /* /Image Responsive Grid 2 */
+    /* ---------------------------------------------------/Media queries */
     /* ---------------------------------------------------Header */
     
     header {
@@ -344,6 +354,12 @@
         width: 300px;
     }
     /* /Image img-resp-grid-2 */
+    /* Contact Icons */
+    
+    .conta-ico {
+        text-align: right;
+    }
+    /* /Contact Icons */
     /* ---------------------------------------------------/Responsive Content Grid 2 */
     /* ---------------------------------------------------Footer */
     
