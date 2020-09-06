@@ -117,7 +117,100 @@
             <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Benefits</h2>
+                        <h2>Contact Form</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <form>
+                            <h4>
+                                Your details:
+                            </h4>
+                            <div class="form-row">
+                                <div class="form-group col-12 col-lg-6">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="John" required>
+                                </div>
+                                <div class="form-group col-12 col-lg-6">
+                                    <label for="surname">Surname</label>
+                                    <input type="text" class="form-control" id="surname" placeholder="Doe" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="comp-name">Your company name</label>
+                                <input type="text" class="form-control" id="comp-name" placeholder="Your company name" required>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-12 col-lg-6">
+                                    <label for="email">Your email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="1@1.com" required>
+                                </div>
+                                <div class="form-group col-12 col-lg-6">
+                                    <label for="phone-number">Your phone number</label>
+                                    <input type="text" class="form-control" id="phone-number" placeholder="12 34 56 78" required>
+                                </div>
+                            </div>
+                            <h4>
+                                Therapies you are interested in:
+                            </h4>
+                            <div class="form-group">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                    <label class="custom-control-label" for="customCheck1">Physiological massage</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                    <label class="custom-control-label" for="customCheck2">Relaxation massage</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                    <label class="custom-control-label" for="customCheck3">Laser therapy</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                    <label class="custom-control-label" for="customCheck4">Reflexology</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                                    <label class="custom-control-label" for="customCheck5">Cranio sacral therapy</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                    <label class="form-check-label" for="invalidCheck">
+                                    Agree to terms and conditions
+                                  </label>
+                                    <div class="invalid-feedback">
+                                        You must agree before submitting.
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-success" type="submit">Submit form</button>
+                        </form>
+                        <!-- Script is a direct copy from Bootstrap's documentation for form submition -->
+                        <script>
+                            // Example starter JavaScript for disabling form submissions if there are invalid fields
+                            (function() {
+                                'use strict';
+                                window.addEventListener('load', function() {
+                                    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                                    var forms = document.getElementsByClassName('needs-validation');
+                                    // Loop over them and prevent submission
+                                    var validation = Array.prototype.filter.call(forms, function(form) {
+                                        form.addEventListener('submit', function(event) {
+                                            if (form.checkValidity() === false) {
+                                                event.preventDefault();
+                                                event.stopPropagation();
+                                            }
+                                            form.classList.add('was-validated');
+                                        }, false);
+                                    });
+                                }, false);
+                            })();
+                        </script>
+                        <!-- /Script for form submition -->
+                        </form>
                     </div>
                 </div>
             </div>
