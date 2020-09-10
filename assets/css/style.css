@@ -414,10 +414,17 @@ footer {
 	#navbarMenu {
 		padding-right: 0px;
 	}
+	/* /#navbarMenu */
+	/* Covid-19 Safety button */
 	.cov-saf-btn {
 		margin-left: 5rem;
 	}
-	/* /#navbarMenu */
+	/* /Covid-19 Safety button */
+	/* navbar-brand */
+	.navbar-brand {
+		padding-left: 0px;
+	}
+	/* /navbar-brand */
 }
 
 /* ---------------------------------------------------/Media queries */
