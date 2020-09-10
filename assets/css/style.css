@@ -303,6 +303,12 @@ header {
 }
 /* /Testimonials */
 
+/* Div Image img-resp-grid-2 */
+.div-img-resp-grid-2 {
+	display: none;
+}
+/* /Div Image img-resp-grid-2 */
+
 /* Image img-resp-grid-2 */
 .img-resp-grid-2 {
 	display: block;
@@ -387,18 +393,20 @@ footer {
 	/* /Welcome to Fit For Work */
 }
 
+@media screen and (min-width: 576px) {
+	/* Div Image img-resp-grid-2 */
+	.div-img-resp-grid-2 {
+		display: block;
+	}
+	/* /Div Image img-resp-grid-2 */
+}
+
 @media screen and (min-width: 768px) {
 	/* Call out */
 	.callout-left-2 {
 		display: block;
 	}
 	/* /Call out */
-}
-
-@media screen and (max-width: 576px) {
-	.div-img-resp-grid-2 {
-		display: none;
-	}
 }
 
 /* ---------------------------------------------------/Media queries */
