@@ -75,7 +75,7 @@ article p {
 /* ---------------------------------------------------Media queries */
 /* Covid-19 Safety button */
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
 	.cov-saf-btn {
 		width: min-content;
 	}
@@ -84,13 +84,13 @@ article p {
 
 /* Call out */
 
-@media (max-width: 376px) {
+@media screen and (max-width: 376px) {
 	.alert-warning {
 		display: none;
 	}
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
 	.callout-left-2 {
 		display: none;
 	}
@@ -99,7 +99,7 @@ article p {
 
 /* Welcome to Fit For Work */
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
 	.welcome-ffw {
 		display: none;
 	}
@@ -107,7 +107,7 @@ article p {
 /* /Welcome to Fit For Work */
 /* Image Responsive Grid 2 */
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
 	.div-img-resp-grid-2 {
 		display: none;
 	}
