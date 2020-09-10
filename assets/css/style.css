@@ -179,6 +179,10 @@ header {
 	font-size: 1.4rem;
 }
 
+.callout-left-2 {
+	display: none;
+}
+
 .callout-p {
 	font-weight: 500;
 	font-size: 1em;
