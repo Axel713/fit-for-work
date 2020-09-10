@@ -60,6 +60,11 @@ article p {
 	line-height: 1.3em;
 	padding-bottom: 1em;
 }
+
+blockquote {
+	font-size: 1.25rem;
+}
+
 /* ---------------------------------------------------/General */
 
 /* ---------------------------------------------------Header */
