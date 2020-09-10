@@ -146,6 +146,7 @@ header {
 .navbar-brand {
 	margin-left: 2px;
 	margin-right: 2px;
+	padding-left: 13px;
 }
 
 .brand {
