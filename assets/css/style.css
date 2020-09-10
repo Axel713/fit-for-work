@@ -72,49 +72,6 @@ article p {
 }
 /* ---------------------------------------------------/General */
 
-/* ---------------------------------------------------Media queries */
-/* Covid-19 Safety button */
-
-@media screen and (max-width: 375px) {
-	.cov-saf-btn {
-		width: min-content;
-	}
-}
-/* /Covid-19 Safety button */
-
-/* Call out */
-
-@media screen and (max-width: 376px) {
-	.alert-warning {
-		display: none;
-	}
-}
-
-@media screen and (max-width: 1200px) {
-	.callout-left-2 {
-		display: none;
-	}
-}
-/* /Call out */
-
-/* Welcome to Fit For Work */
-
-@media screen and (max-width: 576px) {
-	.welcome-ffw {
-		display: none;
-	}
-}
-/* /Welcome to Fit For Work */
-/* Image Responsive Grid 2 */
-
-@media screen and (max-width: 576px) {
-	.div-img-resp-grid-2 {
-		display: none;
-	}
-}
-/* /Image Responsive Grid 2 */
-/* ---------------------------------------------------/Media queries */
-
 /* ---------------------------------------------------Header */
 header {
 	margin-top: 1px;
@@ -137,6 +94,7 @@ header {
 .cov-saf-btn {
 	font-weight: 700;
 	font-size: 0.75em;
+	width: min-content;
 	background-color: #f44b2a;
 	padding: 6px;
 	margin-right: auto;
@@ -208,6 +166,7 @@ header {
 
 /* ---------------------------------------------------Callout */
 .alert-warning {
+	display: none;
 	position: relative;
 	background-color: #ffd166;
 	color: #f44b2a;
@@ -217,6 +176,7 @@ header {
 
 .alert-warning h4 {
 	margin: 10px 0 10px 0;
+	font-size: 1.4rem;
 }
 
 .callout-p {
@@ -387,3 +347,53 @@ footer {
 .foot-comp-nam-2 {
 	font-size: 1em;
 }
+
+/* ---------------------------------------------------Media queries */
+
+@media screen and (min-width: 376px) {
+	/* Header Covid-19 Safety button */
+	.cov-saf-btn {
+		width: max-content;
+	}
+	/* /Header Covid-19 Safety button */
+
+	/* Call out */
+	.alert-warning {
+		display: block;
+	}
+	/* /Call out */
+}
+
+@media screen and (min-width: 384px) {
+	/* Callout h4 */
+	.alert-warning h4 {
+		font-size: 1.5rem;
+	}
+	/* /callout h4 */
+}
+
+/* Call out */
+@media screen and (max-width: 1200px) {
+	.callout-left-2 {
+		display: none;
+	}
+}
+/* /Call out */
+
+/* Welcome to Fit For Work */
+
+@media screen and (max-width: 576px) {
+	.welcome-ffw {
+		display: none;
+	}
+}
+/* /Welcome to Fit For Work */
+/* Image Responsive Grid 2 */
+
+@media screen and (max-width: 576px) {
+	.div-img-resp-grid-2 {
+		display: none;
+	}
+}
+/* /Image Responsive Grid 2 */
+/* ---------------------------------------------------/Media queries */
