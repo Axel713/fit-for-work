@@ -220,7 +220,6 @@ header {
 .callout-p {
 	font-weight: 500;
 	font-size: 1em;
-	margin-left: 4px;
 	margin-bottom: 10px;
 }
 
@@ -240,19 +239,8 @@ header {
 .book-btn-desk {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-end;
 	margin: auto;
-}
-
-.callout-left {
-	margin-left: 1px;
-}
-
-.callout-left-0 {
-	text-align: justify;
-	margin: auto;
-	padding-left: 8px;
-	padding-right: 0;
 }
 /* ---------------------------------------------------/Callout */
 
