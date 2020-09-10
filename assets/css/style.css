@@ -1,8 +1,10 @@
-/* ---------------------------------------------------Google Fonts Library*/
+/* ---------------------------------------------------Google Fonts Library */
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Red+Rose:wght@400;700&display=swap");
-/* ---------------------------------------------------General */
 
+/* ---------------------------------------------------/Google Fonts Library */
+
+/* ---------------------------------------------------General */
 html,
 body {
 	height: 100%;
@@ -68,6 +70,8 @@ article p {
 	line-height: 1.3em;
 	padding-bottom: 1em;
 }
+/* ---------------------------------------------------/General */
+
 /* ---------------------------------------------------Media queries */
 /* Covid-19 Safety button */
 
@@ -92,6 +96,7 @@ article p {
 	}
 }
 /* /Call out */
+
 /* Welcome to Fit For Work */
 
 @media (max-width: 576px) {
@@ -109,8 +114,8 @@ article p {
 }
 /* /Image Responsive Grid 2 */
 /* ---------------------------------------------------/Media queries */
-/* ---------------------------------------------------Header */
 
+/* ---------------------------------------------------Header */
 header {
 	margin-top: 1px;
 	margin-bottom: 70px;
@@ -198,8 +203,8 @@ header {
 	padding-bottom: 5px;
 }
 /* /Cov-19 Safety Modal */
-/* ---------------------------------------------------Callout */
 
+/* ---------------------------------------------------Callout */
 .alert-warning {
 	position: relative;
 	background-color: #ffd166;
@@ -250,8 +255,8 @@ header {
 	padding-right: 0;
 }
 /* ---------------------------------------------------/Callout */
-/* ---------------------------------------------------Hero Image */
 
+/* ---------------------------------------------------Hero Image */
 .hero-image {
 	height: 33vh;
 	background: url(../images/ffw-calf-massage.jpg) no-repeat bottom left fixed;
@@ -260,10 +265,10 @@ header {
 	-o-background-size: cover;
 	background-size: cover;
 }
-/* /Hero Image index.html */
+/* ---------------------------------------------------/Hero Image */
+
 /* ---------------------------------------------------Responsive Content Grid 1 */
 /* Three Reasons index.html */
-
 .line-row {
 	padding-bottom: 1.5em;
 }
@@ -279,8 +284,8 @@ header {
 	font-weight: 500;
 }
 /* /Three Reasons index.html */
-/* Booking index.html */
 
+/* Booking index.html */
 .div-book-ico {
 	text-align: center;
 }
@@ -297,9 +302,9 @@ header {
 }
 /* /Booking index.html */
 /* ---------------------------------------------------/Responsive Content Grid 1 */
+
 /* ----------------------------------------------------Responsive Content Grid 2 */
 /* Services Buttons */
-
 .serv-butt {
 	display: flex;
 	align-items: center;
@@ -314,8 +319,8 @@ header {
 	border-bottom-width: 1px;
 }
 /* /Services Buttons */
-/* Testimonials */
 
+/* Testimonials */
 .testim-row {
 	margin-top: 2em;
 }
@@ -337,8 +342,8 @@ header {
 	bottom: -30px;
 }
 /* /Testimonials */
-/* Image img-resp-grid-2 */
 
+/* Image img-resp-grid-2 */
 .img-resp-grid-2 {
 	display: block;
 	margin: auto;
@@ -346,21 +351,21 @@ header {
 	width: 300px;
 }
 /* /Image img-resp-grid-2 */
-/* Contact Icons */
 
+/* Contact Icons */
 .conta-ico {
 	text-align: right;
 }
 /* /Contact Icons */
 /* ---------------------------------------------------/Responsive Content Grid 2 */
-/* ---------------------------------------------------Contact Form */
 
+/* ---------------------------------------------------Contact Form */
 form div label {
 	font-size: 0.85em;
 }
 /* ---------------------------------------------------/Contact Form */
-/* ---------------------------------------------------Footer */
 
+/* ---------------------------------------------------Footer */
 footer {
 	margin-bottom: 10px;
 	margin-top: 10px;
