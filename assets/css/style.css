@@ -409,4 +409,15 @@ footer {
 	/* /Call out */
 }
 
+@media screen and (min-width: 992px) {
+	/* #navbarMenu */
+	#navbarMenu {
+		padding-right: 0px;
+	}
+	.cov-saf-btn {
+		margin-left: 5rem;
+	}
+	/* /#navbarMenu */
+}
+
 /* ---------------------------------------------------/Media queries */
