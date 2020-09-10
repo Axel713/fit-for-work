@@ -222,6 +222,12 @@ header {
 /* ---------------------------------------------------/Hero Image */
 
 /* ---------------------------------------------------Responsive Content Grid 1 */
+/* Welcome to Fit For Work */
+.welcome-ffw {
+	display: none;
+}
+/* /Welcome to Fit For Work */
+
 /* Three Reasons index.html */
 .line-row {
 	padding-bottom: 1.5em;
@@ -374,30 +380,25 @@ footer {
 		font-size: 1.5rem;
 	}
 	/* /callout h4 */
-}
-
-/* Call out */
-@media screen and (max-width: 1200px) {
-	.callout-left-2 {
-		display: none;
-	}
-}
-/* /Call out */
-
-/* Welcome to Fit For Work */
-
-@media screen and (max-width: 576px) {
+	/* Welcome to Fit For Work */
 	.welcome-ffw {
-		display: none;
+		display: block;
 	}
+	/* /Welcome to Fit For Work */
 }
-/* /Welcome to Fit For Work */
-/* Image Responsive Grid 2 */
+
+@media screen and (min-width: 768px) {
+	/* Call out */
+	.callout-left-2 {
+		display: block;
+	}
+	/* /Call out */
+}
 
 @media screen and (max-width: 576px) {
 	.div-img-resp-grid-2 {
 		display: none;
 	}
 }
-/* /Image Responsive Grid 2 */
+
 /* ---------------------------------------------------/Media queries */
