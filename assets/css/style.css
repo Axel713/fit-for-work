@@ -49,9 +49,11 @@ h5 {
 
 p {
 	margin: 0;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 	font-weight: 400;
-	font-size: 0.9em;
+	font-size: 1.1rem;
+	line-height: 1.8em;
+	letter-spacing: 0.1rem;
 	color: #190b28;
 }
 
