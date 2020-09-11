@@ -316,6 +316,11 @@ header {
 }
 /* /Div Image img-resp-grid-2 */
 
+/* Blank h2 */
+#blank-h2 {
+	height: 56px;
+}
+
 /* Image img-resp-grid-2 */
 .img-resp-grid-2 {
 	display: block;
