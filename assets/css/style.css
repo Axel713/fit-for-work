@@ -226,6 +226,10 @@ header {
 /* ---------------------------------------------------/Hero Image */
 
 /* ---------------------------------------------------Responsive Content Grid 1 */
+#res-gri-1 {
+	margin-top: 2rem;
+}
+
 /* Welcome to Fit For Work */
 .welcome-ffw {
 	display: none;
