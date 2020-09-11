@@ -301,7 +301,7 @@ header {
 }
 
 .carousel-inner .carousel-item {
-	height: 185px;
+	height: 300px;
 }
 
 .carousel-indicators {
@@ -383,6 +383,30 @@ footer {
 }
 
 /* ---------------------------------------------------Media queries */
+
+@media screen and (min-width: 294px) {
+	/* Testimonials */
+	.carousel-inner .carousel-item {
+		height: 275px;
+	}
+	/* /Testimonials */
+}
+
+@media screen and (min-width: 328px) {
+	/* Testimonials */
+	.carousel-inner .carousel-item {
+		height: 250px;
+	}
+	/* /Testimonials */
+}
+
+@media screen and (min-width: 342px) {
+	/* Testimonials */
+	.carousel-inner .carousel-item {
+		height: 225px;
+	}
+	/* /Testimonials */
+}
 
 @media screen and (min-width: 376px) {
 	/* Header Covid-19 Safety button */
