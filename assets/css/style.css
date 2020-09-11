@@ -142,17 +142,31 @@ header {
 
 .cov-moda-p {
 	font-family: "Montserrat", sans-serif;
+	color: #190b28;
 	font-weight: 300;
 	font-size: 0.9em;
+	letter-spacing: 0.1rem;
 	padding-bottom: 5px;
 }
 
 .cov-moda-lis {
 	font-family: "Montserrat", sans-serif;
+	color: #190b28;
 	font-weight: 300;
 	font-size: 0.9em;
+	letter-spacing: 0.1rem;
 	padding-bottom: 5px;
 }
+
+.cov-moda-lis li {
+	font-family: "Montserrat", sans-serif;
+	color: #190b28;
+	font-weight: 300;
+	font-size: 1em;
+	letter-spacing: 0.1rem;
+	padding-bottom: 5px;
+}
+
 /* /Cov-19 Safety Modal */
 
 /* ---------------------------------------------------Callout */
