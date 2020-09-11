@@ -268,6 +268,10 @@ header {
 /* ---------------------------------------------------/Responsive Content Grid 1 */
 
 /* ----------------------------------------------------Responsive Content Grid 2 */
+#res-gri-2 {
+	margin-top: 3rem;
+}
+
 /* Services Buttons */
 .serv-butt {
 	display: flex;
