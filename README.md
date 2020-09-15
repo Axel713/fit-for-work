@@ -13,13 +13,18 @@ This project was developed in cooperation with the company owners, to gain their
 ## Content
 
 - [UX](#UX)
-  - [User-Stories](#User-Stories)
+  - [User Goals](#User-Goals)
+  - [User Stories](#User-Stories)
+  - [Site Owner Goals](#Site-Owner-Goals)
+  - [User Requirements and Expectations](#User-Requirements-and-Expectations)
   - [Wireframes](#Wireframes)
   - [Other-Design-Documents](#Other-Design-Documents)
+  - [Design Choices](#Design-Choices)
+    - [Colours](#Colours)
+    - [Fonts](#Fonts)
+    - [Wireframes](#Wireframes)
 
 ## UX
-
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 User profiles are very varied. Whilst they are majorly danish, variations in culture, background, age range and corporate level make it difficult to pinpoint a/some specific groups. Nonetheless, to fit the current scandinavic design trends and the owner's wishes, the new UX must be:
 
@@ -27,6 +32,16 @@ User profiles are very varied. Whilst they are majorly danish, variations in cul
 - with a colour theme reflecting professionalism and a "clinical" flavour.
 
 ### User Goals
+
+- **Know why** is onsite massage good for my company.
+- **Find out** if Fit For Work I/S can fulfill my massage requirements.
+- **Know if** Fit For Work I/S helps with administration.
+- **Book** a trial session to try Fit For Work I/S's services out.
+- **Contact** the site owner.
+- **Know how** does Fit For Work I/S handle the Covid-19 situation.
+- **Look at** Fit For Work I/S's social media.
+- **Access** Fit For Work I/S's booking system.
+- **Look at** reviews of Fit For Work I/S.
 
 ### User Stories
 
@@ -41,6 +56,16 @@ User profiles are very varied. Whilst they are majorly danish, variations in cul
 - As a user, I want to see feedback from other companies using Fit For Work's services.
 
 ### Site Owner Goals
+
+### User Requirements and Expectations
+
+### Design Choices
+
+#### Colours
+
+#### Fonts
+
+#### Wireframes
 
 ### Other Design Documents
 
