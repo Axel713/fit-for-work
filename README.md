@@ -29,6 +29,7 @@ This project was developed in cooperation with the company owners, to gain their
 - [Technologies Used](#Technologies-Used)
   - [Testing](#Testing)
     - [HMTL code validation](#HTML-code-validation)
+      - [Summary of findings and actions](#Summary-of-findings-and-actions)
     - [CSS code validation](#CSS-code-validation)
 
 ## **UX**
@@ -203,7 +204,17 @@ An option for the user to choose to to view the site in English or Danish.
 
 ### **HTML code validation**
 
-To verify the quality of the written HTML documents, I used the automated [W3C Markup Validator](#https://validator.w3.org/) service.
+To verify the quality of the written HTML documents, I used the automated [W3C Markup Validator](#https://validator.w3.org) service.
+
+#### **Summary of findings and actions**
+
+| Page                | Status                                                                                                               | Actions                                                                                                                                                |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| index.html          | [Warning](testing/w3c-code-validation/index-html/w3c-code-validation-index-html-r01-110920.pdf)                      | Removed article tags in Welcome to fit For Work section.                                                                                               |
+| index.html          | [No errors](testing/w3c-code-validation/index-html/w3c-code-validation-index-html-r02-110920.pdf)                    | None.                                                                                                                                                  |
+| onsite-massage.html | [No errors](testing\w3c-code-validation\onsite-massage-html\w3c-code-validation-onsite-massage-html-r01-110920.pdf)  | None.                                                                                                                                                  |
+| book-trial.html     | [Warning and Errors](testing\w3c-code-validation\book-trial-html\w3c-code-validation-book-trial-html-r01-110920.pdf) | Removed article tags in Book Your Free Massage Trial section. Changed aria-labelledby="Contact Form sent confirmation" to aria-labelledby="form-sent". |
+| book-trial.html     | [No errors](testing\w3c-code-validation\book-trial-html\w3c-code-validation-book-trial-html-r02-110920.pdf)          | None.                                                                                                                                                  |
 
 ### **CSS code validation**
 
