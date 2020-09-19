@@ -105,6 +105,11 @@ For the body and footer, I have chosen [Montserrat](https://fonts.google.com/spe
 
 #### Wireframes
 
+This site was designed according to a "mobile first" philosophy, using [balsamiq wireframes](https://balsamiq.com/wireframes/). With it, the basic structure is drawn, as well as changes in layout between mobile and desktop versions.
+
+Mobile Versions | Desktop Versions
+[index.html](design-tools/wireframes/wireframe-images/index-html.png) | [index.html Desktop]
+
 ### Other Design Documents
 
 _Link pdf files_
