@@ -208,15 +208,24 @@ To verify the quality of the written HTML documents, I used the automated [W3C M
 
 #### **Summary of findings and actions**
 
-| Page                | Status                                                                                                               | Actions                                                                                                                                                |
-| ------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| index.html          | [Warning](testing/w3c-code-validation/index-html/w3c-code-validation-index-html-r01-110920.pdf)                      | Removed article tags in Welcome to fit For Work section.                                                                                               |
-| index.html          | [No errors](testing/w3c-code-validation/index-html/w3c-code-validation-index-html-r02-110920.pdf)                    | None.                                                                                                                                                  |
-| onsite-massage.html | [No errors](testing/w3c-code-validation/onsite-massage-html/w3c-code-validation-onsite-massage-html-r01-110920.pdf)  | None.                                                                                                                                                  |
-| book-trial.html     | [Warning and Errors](testing/w3c-code-validation/book-trial-html/w3c-code-validation-book-trial-html-r01-110920.pdf) | Removed article tags in Book Your Free Massage Trial section. Changed aria-labelledby="Contact Form sent confirmation" to aria-labelledby="form-sent". |
-| book-trial.html     | [No errors](testing/w3c-code-validation/book-trial-html/w3c-code-validation-book-trial-html-r02-110920.pdf)          | None.                                                                                                                                                  |
+| Page                    | Status                                                                                                               | Actions                                                                                                                                                |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **index.html**          | [Warning](testing/w3c-code-validation/index-html/w3c-code-validation-index-html-r01-110920.pdf)                      | Removed article tags in Welcome to fit For Work section.                                                                                               |
+| **index.html**          | [No errors](testing/w3c-code-validation/index-html/w3c-code-validation-index-html-r02-110920.pdf)                    | None.                                                                                                                                                  |
+| **onsite-massage.html** | [No errors](testing/w3c-code-validation/onsite-massage-html/w3c-code-validation-onsite-massage-html-r01-110920.pdf)  | None.                                                                                                                                                  |
+| **book-trial.html**     | [Warning and Errors](testing/w3c-code-validation/book-trial-html/w3c-code-validation-book-trial-html-r01-110920.pdf) | Removed article tags in Book Your Free Massage Trial section. Changed aria-labelledby="Contact Form sent confirmation" to aria-labelledby="form-sent". |
+| **book-trial.html**     | [No errors](testing/w3c-code-validation/book-trial-html/w3c-code-validation-book-trial-html-r02-110920.pdf)          | None.                                                                                                                                                  |
 
 ### **CSS code validation**
+
+To verify the quality of the written css document, I used the automated [W3C Markup Validator CSS Validation Service](#https://jigsaw.w3.org/css-validator) service.
+
+#### **Summary of findings and actions**
+
+| Page          | Status                                                                                       | Actions                                                                                        |
+| ------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **style.css** | [Warning and Errors](testing/w3c-code-validation/css/w3c-code-validation-css-r01-110920.pdf) | In .serv-butt, removed border-block-end-width: 1em. In .img-resp-grid-2, removed height: cover |
+| **style.css** | [No errors](testing/w3c-code-validation/css/w3c-code-validation-css-r02-110920.pdf)          | None.                                                                                          |
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
