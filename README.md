@@ -79,6 +79,8 @@ User profiles are very varied. Whilst they are majorly danish, variations in cul
 
 ### Design Choices
 
+The
+
 #### Colours
 
 #### Fonts
