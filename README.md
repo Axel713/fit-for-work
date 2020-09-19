@@ -32,6 +32,7 @@ This project was developed in cooperation with the company owners, to gain their
     - [Summary of findings and actions](#Summary-of-findings-and-actions)
   - [CSS code validation](#CSS-code-validation)
   - [Responsiveness](#Responsiveness)
+  - [Social media link](#Social-media-link)
 
 ## **UX**
 
@@ -240,6 +241,10 @@ In particular:
 
 - the collapsable navigation bar functions at the designated resolution.
 - The correct sections are shown/hidden depending on device sizes.
+
+### **Social media link**
+
+The link located in the footer section functions.
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
