@@ -83,6 +83,20 @@ The site must be pleasant to the eye whilst using effective colour contrasts to 
 
 #### Colours
 
+The selection of colour is made to include Fit For Work Green logo section proeminent. To make the content easy and pleasant to read, a dedicated white (with gray notes) and black (lighter than standard) has been selected.
+![Colour palette](design-tools/colour-palette/ffw-colour-palette.png)
+
+- Green #007E2F is used for navigation (navigation bar and buttons) and header purposes.
+- Orange #F44B2A is used for:
+  - navigation bar (current page)
+  - image border colour (for images used in a page's content)
+  - Name of companies in testimonials
+  - "Covid-19 Safety" and "Book Now!" button background
+  - Icons: smile, calendar (booking system), phone, mail, file-medical-alt, dumbbell, chart-line, coins, copy, phone-alt, envelope-open-text.
+- Black #190B28 is used for text colour.
+- White #EDEDF4 is used as pages' background colour.
+- Yellow #FFD166 is used for background in callout section (alert bar).
+
 #### Fonts
 
 #### Wireframes
