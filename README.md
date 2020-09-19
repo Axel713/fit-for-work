@@ -107,8 +107,11 @@ For the body and footer, I have chosen [Montserrat](https://fonts.google.com/spe
 
 This site was designed according to a "mobile first" philosophy, using [balsamiq wireframes](https://balsamiq.com/wireframes/). With it, the basic structure is drawn, as well as changes in layout between mobile and desktop versions.
 
-Mobile Versions | Desktop Versions
-[index.html](design-tools/wireframes/wireframe-images/index-html.png) | [index.html Desktop]
+| Mobile Versions                                                                                 | Desktop Versions                                                                                         |
+| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| ![index page mobile view](design-tools/wireframes/wireframe-images/index-html.png)              | ![index page desktop view](design-tools/wireframes/wireframe-images/index-html-desktop.png)              |
+| ![onsite massage mobile view](design-tools/wireframes/wireframe-images/onsite-massage-html.png) | ![onsite massage desktop view](design-tools/wireframes/wireframe-images/onsite-massage-html-desktop.png) |
+| ![book trial mobile view](design-tools/wireframes/wireframe-images/book-trial-html.png)         | ![book trial desktop view](design-tools/wireframes/wireframe-images/book-trial-html-desktop.png)         |
 
 ### Other Design Documents
 
