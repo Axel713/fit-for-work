@@ -79,7 +79,7 @@ User profiles are very varied. Whilst they are majorly danish, variations in cul
 
 ### Design Choices
 
-The
+The site must be pleasant to the eye whilst using effective colour contrasts to allow objects and sections to stand out from one another. Navigation text and call for action buttons must be large enough to people with dimming vision to browse the site with ease.
 
 #### Colours
 
