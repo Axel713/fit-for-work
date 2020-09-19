@@ -27,6 +27,9 @@ This project was developed in cooperation with the company owners, to gain their
   - [Existing Features](#Existing-Features)
   - [Future Features](#Future-Features)
 - [Technologies Used](#Technologies-Used)
+  - [Testing](#Testing)
+    - [HMTL code validation](#HTML-code-validation)
+    - [CSS code validation](#CSS-code-validation)
 
 ## **UX**
 
@@ -172,21 +175,21 @@ An option for the user to choose to to view the site in English or Danish.
 
 ---
 
-## Technologies Used
+## **Technologies Used**
 
-### Languages
+### **Languages**
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-### Libraries
+### **Libraries**
 
 - [Bootstrap](https://getbootstrap.com/)
 - [Font-Awesome](https://fontawesome.com/)
 - [Google fonts](https://fonts.google.com/)
 
-### Tools
+### **Tools**
 
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/)
@@ -196,7 +199,13 @@ An option for the user to choose to to view the site in English or Danish.
 
 ---
 
-## Testing
+## **Testing**
+
+### **HTML code validation**
+
+To verify the quality of the written HTML documents, I used the automated [W3C Markup Validator](#https://validator.w3.org/) service.
+
+### **CSS code validation**
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
