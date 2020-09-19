@@ -27,10 +27,11 @@ This project was developed in cooperation with the company owners, to gain their
   - [Existing Features](#Existing-Features)
   - [Future Features](#Future-Features)
 - [Technologies Used](#Technologies-Used)
-  - [Testing](#Testing)
-    - [HMTL code validation](#HTML-code-validation)
-      - [Summary of findings and actions](#Summary-of-findings-and-actions)
-    - [CSS code validation](#CSS-code-validation)
+- [Testing](#Testing)
+  - [HMTL code validation](#HTML-code-validation)
+    - [Summary of findings and actions](#Summary-of-findings-and-actions)
+  - [CSS code validation](#CSS-code-validation)
+  - [Responsiveness](#Responsiveness)
 
 ## **UX**
 
@@ -94,7 +95,9 @@ The site must be pleasant to the eye whilst using effective colour contrasts to 
 The selection of colour is made to include Fit For Work Green logo section proeminent. To make the content easy and pleasant to read, I chose a dedicated white (with gray notes) and black (lighter than standard).
 ![Colour palette](design-tools/colour-palette/ffw-colour-palette.png)
 
-- Green #007E2F is used for navigation (navigation bar and buttons) and header purposes.
+- Green #007E2F is used for:
+  - navigation (navigation bar and buttons) and header purposes.
+  - Icon: bars.
 - Orange #F44B2A is used for:
   - navigation bar (current page)
   - image border colour (for images used in a page's content)
@@ -204,7 +207,7 @@ An option for the user to choose to to view the site in English or Danish.
 
 ### **HTML code validation**
 
-To verify the quality of the written HTML documents, I used the automated [W3C Markup Validator](#https://validator.w3.org) service.
+To verify the quality of the written HTML documents, I used the automated [W3C Markup Validator](https://validator.w3.org) service.
 
 #### **Summary of findings and actions**
 
@@ -218,7 +221,7 @@ To verify the quality of the written HTML documents, I used the automated [W3C M
 
 ### **CSS code validation**
 
-To verify the quality of the written css document, I used the automated [W3C Markup Validator CSS Validation Service](#https://jigsaw.w3.org/css-validator) service.
+To verify the quality of the written css document, I used the automated [W3C Markup Validator CSS Validation Service](https://jigsaw.w3.org/css-validator) service.
 
 #### **Summary of findings and actions**
 
@@ -226,6 +229,17 @@ To verify the quality of the written css document, I used the automated [W3C Mar
 | ------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | **style.css** | [Warning and Errors](testing/w3c-code-validation/css/w3c-code-validation-css-r01-110920.pdf) | In .serv-butt, removed border-block-end-width: 1em. In .img-resp-grid-2, removed height: cover |
 | **style.css** | [No errors](testing/w3c-code-validation/css/w3c-code-validation-css-r02-110920.pdf)          | None.                                                                                          |
+
+### **Responsiveness**
+
+I tested the site for responsiveness using [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools), by varying width resolution. I also tested it on an [iPhone XR](https://www.apple.com/uk/shop/buy-iphone/iphone-xr), [Samsung Galaxy S7](https://www.samsung.com/uk/smartphones/galaxy-s7/overview/), [iPad Pro 11](https://www.apple.com/uk/ipad-pro/) and various [Windows](https://www.microsoft.com/en-gb/windows/) based computer with different screen sizes.
+
+It was found to be adequately responsive by myself and some members of the [Code Institute Slack Community](https://code-institute-room.slack.com).
+
+In particular:
+
+- the collapsable navigation bar functions at the designated resolution.
+- The correct sections are shown/hidden depending on device sizes.
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
