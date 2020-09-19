@@ -189,6 +189,8 @@ An option for the user to choose to to view the site in English or Danish.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
+_Note_: whilst JavaScript is not a part of the project curriculum, a customised code has been added to the contact form located in the [book-trial.html](book-trial.html) to allow a confirmation of success pop up modal to function and improve the user experience. The code was generously provided by my mentor (Dick Vlaanderen).
+
 ### **Libraries**
 
 - [Bootstrap](https://getbootstrap.com/)
