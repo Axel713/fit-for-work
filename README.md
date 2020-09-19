@@ -23,6 +23,9 @@ This project was developed in cooperation with the company owners, to gain their
     - [Colours](#Colours)
     - [Fonts](#Fonts)
     - [Wireframes](#Wireframes)
+- [Features](#Features)
+  - [Existing Features](#Existing-Features)
+  - [Future Features](#Future-Features)
 
 ## UX
 
@@ -83,7 +86,7 @@ The site must be pleasant to the eye whilst using effective colour contrasts to 
 
 #### Colours
 
-The selection of colour is made to include Fit For Work Green logo section proeminent. To make the content easy and pleasant to read, a dedicated white (with gray notes) and black (lighter than standard) has been selected.
+The selection of colour is made to include Fit For Work Green logo section proeminent. To make the content easy and pleasant to read, I chose a dedicated white (with gray notes) and black (lighter than standard).
 ![Colour palette](design-tools/colour-palette/ffw-colour-palette.png)
 
 - Green #007E2F is used for navigation (navigation bar and buttons) and header purposes.
@@ -107,42 +110,58 @@ For the body and footer, I have chosen [Montserrat](https://fonts.google.com/spe
 
 This site was designed according to a "mobile first" philosophy, using [balsamiq wireframes](https://balsamiq.com/wireframes/). With it, the basic structure is drawn, as well as changes in layout between mobile and desktop versions.
 
+The current wireframe file (version 04) can be found : [here](design-tools/wireframes/FitForWork_V04.bmpr).
+
 | Mobile Versions                                                                                 | Desktop Versions                                                                                         |
 | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | ![index page mobile view](design-tools/wireframes/wireframe-images/index-html.png)              | ![index page desktop view](design-tools/wireframes/wireframe-images/index-html-desktop.png)              |
 | ![onsite massage mobile view](design-tools/wireframes/wireframe-images/onsite-massage-html.png) | ![onsite massage desktop view](design-tools/wireframes/wireframe-images/onsite-massage-html-desktop.png) |
 | ![book trial mobile view](design-tools/wireframes/wireframe-images/book-trial-html.png)         | ![book trial desktop view](design-tools/wireframes/wireframe-images/book-trial-html-desktop.png)         |
 
-### Other Design Documents
+Wireframe version historic:
 
-_Link pdf files_
+- V01: original version.
+- V02: based on feedback from my mentor (Dick Vlaanderen). Reduced number of pages.
+- V03: improved the visual attractiveness of the design by giving more breathing space to the different elements.
+- V04: (current): updated book-trial page to add contact details and an image to make it more informative and attractive. Upgraded responsive-design between desktop and mobile content: only form and contact details visible in the latter.
 
-### Design Choices
+## **Features**
 
-#### Wireframes
+### **Existing Features**
 
-_Link pdf files_
+- Responsive Design
 
-#### Fonts
+With a _mobile-first_ design principle in mind, the site's layout changes according to the display size, with the most important information shown on mobile-size devices.
 
-#### Colours
+- Easy-to-the-eye colour theme
 
-## Features
+In particular the blend of a white _with gray notes_ and black _with lighter than standard depth_ gives a relaxing reading environment.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so..
+- Covid-19 Safety information
 
-### Existing Features
+A modal pop-up placed in the navgation bar informs users of Fit Fo Work's measures to in regards to Covid-19.
 
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Contact form
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Used to book a massage trial. The form informs the user if they have not completed the mandatory fields of the form, for example: name, email address, etc, and an "Agree to terms and conditions" checkbox. Upon submission of the form, the user gets a notification that the form has been sent and should expect to be contacted by Fit For Work. It must be noted that the current form design is not fully functional (no backend servicing) due to my technology limitations.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Social link
 
-### Features Left to Implement
+Located in footer section.
 
-- Another feature idea
+### **Future Features**
+
+- Contact form
+
+To design an implement backend to collect the submited information in a database.
+
+- Additional services
+
+Additional pages that describe further treatment offerings to be implemented.
+
+- Additional languages
+
+An option for the user to choose to to view the site in English or Danish.
 
 ## Technologies Used
 
