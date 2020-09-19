@@ -34,6 +34,12 @@ This project was developed in cooperation with the company owners, to gain their
   - [Responsiveness](#Responsiveness)
   - [Social media link](#Social-media-link)
   - [Contact Form](#Contact-Form)
+  - [Bugs and fixes](#Bugs-and-fixes)
+    - [HMTL fixes](#HMTL-fixes)
+    - [CSS sixes](#CSS-fixes)
+    - [Miscellaneous fixes](#Miscellaneous-fixes)
+
+---
 
 ## **UX**
 
@@ -191,6 +197,8 @@ An option for the user to choose to to view the site in English or Danish.
 
 _Note_: whilst JavaScript is not a part of the project curriculum, a customised code has been added to the contact form located in the [book-trial.html](book-trial.html) to allow a confirmation of success pop up modal to function and improve the user experience. The code was generously provided by my mentor (Dick Vlaanderen).
 
+It is **important to note**, that in book-trial.html, it is necessary to add the custom script for the form right before the closing body tag to allow for functionality, overriding the Bootstrap documentation instruction regarding its own scripts.
+
 ### **Libraries**
 
 - [Bootstrap](https://getbootstrap.com/)
@@ -256,11 +264,38 @@ The link located in the footer section functions.
 - Tried to submit the form with an invalid phone number (alphabetical characters) and verified that a relevant error message appears.
 - Try to submit the form with all inputs valid and verified that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### **Bugs and fixes**
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+I found and fixed various bugs in the final testing phase of the project; those are listed below.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+#### **HMTL fixes**
+
+- In book.trial.html, added "Optional fields" to "Therapies you are interested in".
+- In all .html files, responsive grid 2, right section, added a row to align image on the right-hand side with content below h2 on the left-hand side.
+- In index.html, removed all "br" tags.
+- In onsite-massge.html, removed all "br" tags.
+- In book-trial.html, removed all "br" tags.
+- In all .html files, verified and removed all leftover "br" tags, added to responsive grid 1 an id=res-gri-1.
+
+#### **CSS fixes**
+
+- In style.css, for p category, adjusted font style, line spacing and letter spacing to make reading more pleasant.
+- In style.css, removed redundant article p selector.
+- In style.css, adjusted font size for .form-opt-fiel to 0.85em.
+- In style.css, for callout-p class selector, removed margin-bottom: 10px.
+- In style.css, corrected syntax for .modal-title, font-family: "Montserrat", sans-serif.
+- In style.css, corrected syntax for .cov-moda-p and .cov-moda-lis, font-family: Montserrat, sans-serif.
+- In style.css, adjusted font size and color for Covid-19 Safety modal. Also added selector .cov-moda-lis li to define appropriate text display format.
+- In style.css, adjusted h2 margin-bottom to 15px.
+- In style.css, defined #blank-h2 with a height of 56px.
+- In style.css, added media queries to make testimonials responsive at different width resolutions.
+- In style.css, adjusted footer margin-top to 50px.
+- In style.css, for #res-gri-1, defined margin-top of 2rem.
+- In style.css, for .img-resp-grid-2, removed margin:auto.
+
+#### **Miscellaneous fixes**
+
+- Moved wireframes folder and its content out of assets folder and placed it into fit-for-work folder, since this is supporting documentation that is not required to run the website.
 
 [Back to Content](#Content)
 
