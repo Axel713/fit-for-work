@@ -26,15 +26,16 @@ This project was developed in cooperation with the company owners, to gain their
 - [Features](#Features)
   - [Existing Features](#Existing-Features)
   - [Future Features](#Future-Features)
+- [Technologies Used](#Technologies-Used)
 
-## UX
+## **UX**
 
 User profiles are very varied. Whilst they are majorly danish, variations in culture, background, age range and corporate level make it difficult to pinpoint a/some specific groups. Nonetheless, to fit the current scandinavic design trends and the owner's wishes, the new UX must be:
 
 - with a simple and clear layout.
 - with a colour theme reflecting professionalism and a "clinical" flavour.
 
-### User Goals
+### **User Goals**
 
 - **Know why** is onsite massage good for my company.
 - **Find out** if Fit For Work I/S can fulfill my massage requirements.
@@ -46,7 +47,7 @@ User profiles are very varied. Whilst they are majorly danish, variations in cul
 - **Access** Fit For Work I/S's booking system.
 - **Look at** reviews of Fit For Work I/S.
 
-### User Stories
+### **User Stories**
 
 - As a user type, I want to find out why is onsite massage good for my company.
 - As a user, I want to find out how can Fit For Work fulfill my own site massage requirements.
@@ -58,7 +59,7 @@ User profiles are very varied. Whilst they are majorly danish, variations in cul
 - As a user, I want a link to Fit For Work booking system.
 - As a user, I want to see feedback from other companies using Fit For Work's services.
 
-### Site Owner Goals
+### **Site Owner Goals**
 
 - As a site owner, I want to inform potential clients about onsite massage benefits.
 - As a site owner, I want people to know what actions we take in regards to Covid-19.
@@ -68,7 +69,7 @@ User profiles are very varied. Whilst they are majorly danish, variations in cul
 - As a site owner, I want users to easily contact me.
 - As a site owner, I want users to have a link to our social media page.
 
-### User Requirements and Expectations
+### **User Requirements and Expectations**
 
 1. The site must have a navigation bar
 1. The site must have a clear and obvious access to information on how we work in regards to Covid-19.
@@ -80,11 +81,11 @@ User profiles are very varied. Whilst they are majorly danish, variations in cul
 1. The site must include a link to our social media page.
 1. The site must be designed in a visually apppealing manner and easy to read.
 
-### Design Choices
+### **Design Choices**
 
 The site must be pleasant to the eye whilst using effective colour contrasts to allow objects and sections to stand out from one another. Navigation text and call for action buttons must be large enough to people with dimming vision to browse the site with ease.
 
-#### Colours
+#### **Colours**
 
 The selection of colour is made to include Fit For Work Green logo section proeminent. To make the content easy and pleasant to read, I chose a dedicated white (with gray notes) and black (lighter than standard).
 ![Colour palette](design-tools/colour-palette/ffw-colour-palette.png)
@@ -100,13 +101,13 @@ The selection of colour is made to include Fit For Work Green logo section proem
 - White #EDEDF4 is used as pages' background colour.
 - Yellow #FFD166 is used for background in callout section (alert bar).
 
-#### Fonts
+#### **Fonts**
 
 For the navigation bar, I have chosen [Red Rose](https://fonts.google.com/specimen/Red+Rose?query=red).
 
 For the body and footer, I have chosen [Montserrat](https://fonts.google.com/specimen/Montserrat?query=mont).
 
-#### Wireframes
+#### **Wireframes**
 
 This site was designed according to a "mobile first" philosophy, using [balsamiq wireframes](https://balsamiq.com/wireframes/). With it, the basic structure is drawn, as well as changes in layout between mobile and desktop versions.
 
@@ -124,6 +125,10 @@ Wireframe version historic:
 - V02: based on feedback from my mentor (Dick Vlaanderen). Reduced number of pages.
 - V03: improved the visual attractiveness of the design by giving more breathing space to the different elements.
 - V04: (current): updated book-trial page to add contact details and an image to make it more informative and attractive. Upgraded responsive-design between desktop and mobile content: only form and contact details visible in the latter.
+
+[Back to Content](#Content)
+
+---
 
 ## **Features**
 
@@ -163,12 +168,33 @@ Additional pages that describe further treatment offerings to be implemented.
 
 An option for the user to choose to to view the site in English or Danish.
 
+[Back to Content](#Content)
+
+---
+
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+### Languages
 
-- [JQuery](https://jquery.com)
-  - The project uses **JQuery** to simplify DOM manipulation.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+### Libraries
+
+- [Bootstrap](https://getbootstrap.com/)
+- [Font-Awesome](https://fontawesome.com/)
+- [Google fonts](https://fonts.google.com/)
+
+### Tools
+
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+[Back to Content](#Content)
+
+---
 
 ## Testing
 
@@ -190,6 +216,10 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+[Back to Content](#Content)
+
+---
+
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -201,6 +231,10 @@ In particular, you should provide all details of the differences between the dep
 - Separate git branch?
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
+
+[Back to Content](#Content)
+
+---
 
 ## Credits
 
@@ -215,3 +249,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 
 - I received inspiration for this project from X
+
+[Back to Content](#Content)
+
+---
