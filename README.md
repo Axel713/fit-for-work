@@ -57,7 +57,25 @@ User profiles are very varied. Whilst they are majorly danish, variations in cul
 
 ### Site Owner Goals
 
+- As a site owner, I want to inform potential clients about onsite massage benefits.
+- As a site owner, I want people to know what actions we take in regards to Covid-19.
+- As a site owner, I want prospective customers to easily book a massage trial.
+- As a site owner, I want my exisiting customers to have a quick access to out booking system.
+- As a site owner, I want users to know how we can help them (onsite massage and easy administration).
+- As a site owner, I want users to easily contact me.
+- As a site owner, I want users to have a link to our social media page.
+
 ### User Requirements and Expectations
+
+1. The site must have a navigation bar
+1. The site must have a clear and obvious access to information on how we work in regards to Covid-19.
+1. The site must include a describition of our services.
+1. The site must allow for exisiting and potential customers to easily contact us.
+1. The site must include a link to our booking system.
+1. The site must include a contact form that collects user details when booking a massage trial.
+1. The site must include our contact details.
+1. The site must include a link to our social media page.
+1. The site must be designed in a visually apppealing manner and easy to read.
 
 ### Design Choices
 
