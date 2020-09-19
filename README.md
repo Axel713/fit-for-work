@@ -33,6 +33,7 @@ This project was developed in cooperation with the company owners, to gain their
   - [CSS code validation](#CSS-code-validation)
   - [Responsiveness](#Responsiveness)
   - [Social media link](#Social-media-link)
+  - [Contact Form](#Contact-Form)
 
 ## **UX**
 
@@ -208,7 +209,7 @@ An option for the user to choose to to view the site in English or Danish.
 
 ### **HTML code validation**
 
-To verify the quality of the written HTML documents, I used the automated [W3C Markup Validator](https://validator.w3.org) service.
+To verify the quality of the written HTML documents, I used the automated [W3C Markup Validator](https://validator.w3.org) service. The code was tested with the Direct Input tool.
 
 #### **Summary of findings and actions**
 
@@ -222,7 +223,7 @@ To verify the quality of the written HTML documents, I used the automated [W3C M
 
 ### **CSS code validation**
 
-To verify the quality of the written css document, I used the automated [W3C Markup Validator CSS Validation Service](https://jigsaw.w3.org/css-validator) service.
+To verify the quality of the written css document, I used the automated [W3C Markup Validator CSS Validation Service](https://jigsaw.w3.org/css-validator) service. The code was tested with the Direct Input tool.
 
 #### **Summary of findings and actions**
 
@@ -246,17 +247,12 @@ In particular:
 
 The link located in the footer section functions.
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### **Contact Form**
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-   1. Go to the "Contact Us" page
-   2. Try to submit the empty form and verify that an error message about the required fields appears
-   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-   4. Try to submit the form with all inputs valid and verify that a success message appears.
+- Tried to submit an empty form and verified that an error message about the required fields appears.
+- Tried to submit the form with an invalid email address and verified that a relevant error message appears.
+- Tried to submit the form with an invalid phone number (alphabetical characters) and verified that a relevant error message appears.
+- Try to submit the form with all inputs valid and verified that a success message appears.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
