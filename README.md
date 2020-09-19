@@ -99,6 +99,10 @@ The selection of colour is made to include Fit For Work Green logo section proem
 
 #### Fonts
 
+For the navigation bar, I have chosen [Red Rose](https://fonts.google.com/specimen/Red+Rose?query=red).
+
+For the body and footer, I have chosen [Montserrat](https://fonts.google.com/specimen/Montserrat?query=mont).
+
 #### Wireframes
 
 ### Other Design Documents
