@@ -30,6 +30,7 @@ This project was developed in cooperation with the company owners, to gain their
 - [Testing](#Testing)
   - [HMTL code validation](#HTML-code-validation)
   - [CSS code validation](#CSS-code-validation)
+  - [Overall website test](#Overall-website-test)
   - [Responsiveness](#Responsiveness)
   - [Social media link](#Social-media-link)
   - [Contact Form](#Contact-Form)
@@ -243,6 +244,12 @@ To verify the quality of the written css document, I used the automated [W3C Mar
 | ------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | **style.css** | [Warning and Errors](testing/w3c-code-validation/css/w3c-code-validation-css-r01-110920.pdf) | In .serv-butt, removed border-block-end-width: 1em. In .img-resp-grid-2, removed height: cover |
 | **style.css** | [No errors](testing/w3c-code-validation/css/w3c-code-validation-css-r02-110920.pdf)          | None.                                                                                          |
+
+### **Overall website test**
+
+I performed regular overall tests of the website by verifying that: images load correctly up, links work, navigation bar works and is responsive, contact form works as intended, text is correctly displayed, testimonial carousel works.
+
+Various members of the Code Institute Slack Community also tested my website, contributing with input to the bug troubleshooting section.
 
 ### **Responsiveness**
 
