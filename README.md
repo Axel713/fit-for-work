@@ -29,7 +29,6 @@ This project was developed in cooperation with the company owners, to gain their
 - [Technologies Used](#Technologies-Used)
 - [Testing](#Testing)
   - [HMTL code validation](#HTML-code-validation)
-    - [Summary of findings and actions](#Summary-of-findings-and-actions)
   - [CSS code validation](#CSS-code-validation)
   - [Responsiveness](#Responsiveness)
   - [Social media link](#Social-media-link)
@@ -224,8 +223,6 @@ It is **important to note**, that in book-trial.html, it is necessary to add the
 
 To verify the quality of the written HTML documents, I used the automated [W3C Markup Validator](https://validator.w3.org) service. The code was tested with the Direct Input tool.
 
-#### **Summary of findings and actions**
-
 | Page                    | Status                                                                                                               | Actions                                                                                                                                                |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **index.html**          | [Warning](testing/w3c-code-validation/index-html/w3c-code-validation-index-html-r01-110920.pdf)                      | Removed article tags in Welcome to fit For Work section.                                                                                               |
@@ -237,8 +234,6 @@ To verify the quality of the written HTML documents, I used the automated [W3C M
 ### **CSS code validation**
 
 To verify the quality of the written css document, I used the automated [W3C Markup Validator CSS Validation Service](https://jigsaw.w3.org/css-validator) service. The code was tested with the Direct Input tool.
-
-#### **Summary of findings and actions**
 
 | Page          | Status                                                                                       | Actions                                                                                        |
 | ------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
