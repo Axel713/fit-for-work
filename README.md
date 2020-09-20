@@ -349,15 +349,21 @@ Copy the following code and input it into your terminal to clone Money Pot:
 - The grid structure, modals, testimonials and contact form were based on [Bootstrap](https://getbootstrap.com/) code provided in the documentation.
 - The icons were found at: [Font-Awesome](https://fontawesome.com/).
 - The fonts were found at: [Google fonts](https://fonts.google.com/).
-- The text content is translated and adapted from the current [Fit For Work website](https://fitforwork.dk/) (available in Danish only).
+- The text content is translated and adapted from the current [Fit For Work website](https://fitforwork.dk) (available in Danish only).
+- The script code section used in [book-trial.html](book-trial.html) was generously provided by my mentor (Dick Vlaanderen).
 
 ### Media
 
 - The photos used in this site were obtained from Fit For Work, who owns them.
+- The colour palette was made using [Coolors](https://coolors.co/).
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+Special thanks must go to:
+
+- [Fit For Work I/S](https://fitforwork.dk) for giving me the opportunity to work on their project.
+- My mentor [Dick Vlaanderen](https://www.linkedin.com/in/dick-vlaanderen/) for his ever-valuable feedback.
+- The Code Institute Slack Community, especially: [MrBim](https://github.com/MrBim), [Mark Railton](https://github.com/railto), [Simen Daehlin](https://github.com/Eventyret),[Anthony O' Brien](https://github.com/auxfuse), [Alexey](https://github.com/alexeykuz-sys) and [Jim](https://github.com/JimLynx) for their input and feedback.
 
 [Back to Content](#Content)
 
