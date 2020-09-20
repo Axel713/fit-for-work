@@ -268,6 +268,8 @@ The link located in the footer section functions.
 
 I found and fixed various bugs in the final testing phase of the project; those are listed below.
 
+I have also asked my fellow students at the Code Institute to review my site and report any bugs or issues they may discover.
+
 #### **HMTL fixes**
 
 - In book.trial.html, added "Optional fields" to "Therapies you are interested in".
