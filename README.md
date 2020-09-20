@@ -38,6 +38,9 @@ This project was developed in cooperation with the company owners, to gain their
     - [HMTL fixes](#HMTL-fixes)
     - [CSS sixes](#CSS-fixes)
     - [Miscellaneous fixes](#Miscellaneous-fixes)
+- [Deployment](#Deployment)
+  - [GitHub Pages](#GitHub-Pages)
+  - [Local deployment](#Local-deployment)
 
 ---
 
@@ -305,15 +308,35 @@ I have also asked my fellow students at the Code Institute to review my site and
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The webiste was developed in [Visual Studio Code](https://code.visualstudio.com/), version controlled with [Git](https://git-scm.com/) and the repositary kept in [GitHub](https://github.com/).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+### **GitHub Pages**
 
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+I deployed the site using [GitHub Pages](https://pages.github.com/).
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+- Opened up **GitHub** in the browser.
+- Signed in with my **username** and **password**.
+- Selected my **repositories**.
+- Navigated to **Axel713/fit-for-work**.
+- In the top navigation, clicked **settings**.
+- Scrolled down to the **GitHub Pages** section.
+- Selected **Master Branch** from the **Source** dropdown menu.
+- Clicked to **confirm** my **selection**.
+- [Fit For Work](https://axel713.github.io/fit-for-work/) is now **live** in **GitHub Pages**.
+
+### **Local deployment**
+
+To clone **Fit For Work** from GitHub:
+
+- Navigate to **Axel713/fit-for-work**.
+- Click the green **Clone or Download** button.
+- **Copy** the url in the dropdown box.
+- In your **IDE** (Integrated Development Environment), open up your terminal.
+- **Locate** your desired file location.
+
+Copy the following code and input it into your terminal to clone Money Pot:
+
+`git clone https://github.com/Axel713/fit-for-work`
 
 [Back to Content](#Content)
 
@@ -323,11 +346,14 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content
 
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The grid structure, modals, testimonials and contact form were based on [Bootstrap](https://getbootstrap.com/) code provided in the documentation.
+- The icons were found at: [Font-Awesome](https://fontawesome.com/).
+- The fonts were found at: [Google fonts](https://fonts.google.com/).
+- The text content is translated and adapted from the current [Fit For Work website](https://fitforwork.dk/) (available in Danish only).
 
 ### Media
 
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from Fit For Work, who owns them.
 
 ### Acknowledgements
 
