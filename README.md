@@ -40,6 +40,10 @@ This project was developed in cooperation with the company owners, to gain their
 - [Deployment](#Deployment)
   - [GitHub Pages](#GitHub-Pages)
   - [Local deployment](#Local-deployment)
+- [Credits](#Credits)
+  - [Project Content](#Project-Content)
+  - [Media](#Media)
+  - [Acknowledgements](#Acknowledgements)
 
 ---
 
@@ -301,7 +305,7 @@ I have also asked my fellow students at the Code Institute to review my site and
 
 ---
 
-## Deployment
+## **Deployment**
 
 The webiste was developed in [Visual Studio Code](https://code.visualstudio.com/), version controlled with [Git](https://git-scm.com/) and the repositary kept in [GitHub](https://github.com/).
 
@@ -337,9 +341,9 @@ Copy the following code and input it into your terminal to clone Money Pot:
 
 ---
 
-## Credits
+## **Credits**
 
-### Content
+### **Project Content**
 
 - The grid structure, modals, testimonials and contact form were based on [Bootstrap](https://getbootstrap.com/) code provided in the documentation.
 - The icons were found at: [Font-Awesome](https://fontawesome.com/).
@@ -347,12 +351,12 @@ Copy the following code and input it into your terminal to clone Money Pot:
 - The text content is translated and adapted from the current [Fit For Work website](https://fitforwork.dk) (available in Danish only).
 - The script code section used in [book-trial.html](book-trial.html) was generously provided by my mentor (Dick Vlaanderen).
 
-### Media
+### **Media**
 
 - The photos used in this site were obtained from Fit For Work, who owns them.
 - The colour palette was made using [Coolors](https://coolors.co/).
 
-### Acknowledgements
+### **Acknowledgements**
 
 Special thanks must go to:
 
